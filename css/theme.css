@@ -1,0 +1,106 @@
+
+body {
+	color: #4A4A4A;
+	font-family: Raleway;
+}
+
+h1 {
+	/* DON ́T DO YOUR JOB.: */
+	font-family: Raleway-Medium;
+	font-size: 64px;
+	color: #4A4A4A;
+}
+
+h2 {
+	/* PLAYGROUND: */
+	font-family: Comfortaa-Bold;
+	font-size: 36px;
+	color: #4A4A4A;
+}
+
+h3 {
+	/* .demn.io: */
+	font-family: Comfortaa-Bold;
+	font-size: 30px;
+	color: #4A4A4A;
+}
+
+h4 {
+	/* see more: */
+	font-family: Comfortaa-Bold;
+	font-size: 20px;
+	color: #4A4A4A;
+}
+
+section {
+	padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.pl-section-1 {
+	padding-top: 15em;
+    padding-bottom: 9em;
+}
+
+.pl-text-align-end {
+	text-align: end;
+}
+
+.pl-text-align-center {
+	text-align: center;
+}
+
+.pl-margin-top-1em {
+	margin-top: 1em;
+}
+
+.pl-margin-top-2em {
+	margin-top: 2em;
+}
+
+.pl-background-FEEA4E {
+	/* Rectangle 5: */
+	background: #FEEA4E;
+}
+
+.pl-color-1EB6F0 {
+	color: #1EB6F0;
+}
+
+.pl-back-to-playground {
+	font-family: Comfortaa-Bold;
+    font-size: 20px;
+    padding-top: 1em;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	h1 {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 26px;
+	}
+
+	h3 {
+		font-size: 22px;
+	}
+
+	.pl-margin-top-5em {
+		margin-top: 5em;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width: 991.98px) {
+	h1 {
+		font-size: 42px;
+	}
+	h2 {
+		font-size: 32px;
+	}
+
+	h3 {
+		font-size: 28px;
+	}
+}
